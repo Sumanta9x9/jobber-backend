@@ -1,0 +1,24 @@
+{
+  "name": "jalan-calculator-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "Prop.",
+  "description": "Jalan Calculator Backend",
+  "repository": "git@gitlab.com:sumantab.9/jalan-calculator-backend.git",
+  "author": "Sumanta Banerjee",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "serve": "npx nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dbf-reader": "^1.0.2",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.4",
+    "xlsx": "^0.17.0"
+  }
+}
